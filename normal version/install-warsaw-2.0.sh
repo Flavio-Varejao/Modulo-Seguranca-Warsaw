@@ -1,54 +1,6 @@
 #!/usr/bin/env bash
 #
-# install-warsaw-2.0.sh - Instala o Módulo de Segurança dos Bancos
-#
-# Site:     
-# Autor:      Flávio Varejão
-# Manutenção: Flávio Varejão
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Este script irá instalar a última versão do Módulo de Segurança dos Bancos no Linux
-#
-# O script suporta arquivos deb e rpm, logo é compatível com distros que utilizam o gerenciador 
-# de pacotes dpkg, zypper e dnf (Ubuntu, Fedora, OpenSUSE, etc).
-#
-# Como usar:
-#
-#   Primeiro acesso (permissão de execução):
-#     $ chmod +x install-warsaw-2.0.sh
-#
-#   Exemplo de uso:
-#     $ ./install-warsaw-2.0.sh -b
-#     Neste exemplo o script vai instalar o módulo do Banco do Brasil.
-#
-# Na seção de variáveis é possível alterar as URLs (em SITE) e o nome do arquivo (em ARQUIVO) 
-# caso tenham sofrido alguma mudança no servidor.   
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Histórico:
-#   v1.0 25/02/2020, Flávio:
-#     - Início do programa
-#
-#   v1.1 26/02/2020, Flávio:
-#     - Indentação do código
-#     - Encurtamento de comandos
-#
-#   V1.2 27/02/2020, Flávio:
-#     - Criação dos vetores SITE e ARQUIVO
-#
-#   V1.3 24/03/2020, Flávio:
-#     - Adicionado a opção de Ajuda
-#     - Adicionado a opção de Versão
-#     - Pequenas alterações
-#
-#   V1.4 11/05/2020, Flávio:
-#     - Adicionado a opção de exibir informações do pacote
-#     - Adicionado a opção de remover o pacote
-#   
-#   V2.0 21/05/2020, Flavio:
-#     - Adicionado suporte a arquivos rpm (zypper e dnf)
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Testado em:
-#   bash 4.4.20
-# -------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------------------------------------------------------------------------- 
 # ---------------------------------------- VARIÁVEIS-------------------------------------------------- #
 VERSAO="install-warsaw Versão 2.0
 "

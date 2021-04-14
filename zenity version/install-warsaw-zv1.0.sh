@@ -1,31 +1,5 @@
 #!/usr/bin/env bash
 #
-# install-warsaw-zv1.0.sh - Instala o Módulo de Segurança dos Bancos
-#
-# Site:     
-# Autor:      Flávio Varejão
-# Manutenção: Flávio Varejão
-# ------------------------------------------------------------------------------------------------------------------------------ #
-# Este script irá instalar a última versão do Módulo de Segurança dos Bancos no Linux utilizando o ZENITY (caixas de diálogo).
-# Leia as instruções a seguir.
-#
-# Exemplo:
-#   $ ./install-warsaw-zv1.0.sh
-#   Neste exemplo o script será executado.
-#
-# Na seção de variáveis é possível alterar as URLs (em SITE) e o nome do arquivo (em ARQUIVO) 
-# caso tenham sofrido alguma mudança no servidor.   
-# ------------------------------------------------------------------------------------------------------------------------------ #
-# Histórico:
-#   Versão 1.0, Flávio: 
-#     13/03/2020
-#       - Início do programa
-#     16/05/2020
-#       - Adicionado a opção de exibir informações do pacote
-#       - Adicionado a opção de remover o pacote
-# ------------------------------------------------------------------------------------------------------------------------------ #
-# Testado em:
-#   bash 4.4.20
 # ------------------------------------------------------------------------------------------------------------------------------ #
 # -------------------------------------------- VARIÁVEIS------------------------------------------------ #
 SITE=(

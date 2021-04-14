@@ -1,47 +1,6 @@
 #!/usr/bin/env bash
 #
-# install-warsaw-dv2.0.sh - Instala o Módulo de Segurança dos Bancos
-#
-# Site:     
-# Autor:      Flávio Varejão
-# Manutenção: Flávio Varejão
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Este script irá instalar a última versão do Módulo de Segurança dos Bancos no Linux
-# utilizando O DIALOG (caixas de diálogo).
-#
-# O script suporta arquivos deb e rpm, logo é compatível com distros que utilizam o gerenciador 
-# de pacotes dpkg, zypper e dnf (Ubuntu, Fedora, OpenSUSE, etc). Leia as instruções a seguir.
-#
-# Como usar:
-#
-#   Primeiro acesso (permissão de execução):
-#     $ chmod +x install-warsaw-2.0.sh
-#
-#   Exemplo de uso:
-#     $ ./install-warsaw-dv2.0.sh
-#     Neste exemplo o script será executado.
-#
-# Na seção de variáveis é possível alterar as URLs (em SITE) e o nome do arquivo (em ARQUIVO) 
-# caso tenham sofrido alguma mudança no servidor.
-#
-# Obs.: A opção 'Genérico' significa que funciona para todos os bancos (geral), é uma versão tirada do 
-# site do desenvolvedor. As outras opções foram tiradas do site dos bancos e podem ter sido modificadas
-# pelos bancos por questões de compatibilidade. Na dúvida instale a dos bancos.
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Histórico:
-#   Versão 1.0, Flávio:
-#     14/03/2020
-#       - Início do programa
-#     11/05/2020
-#       - Adicionado a opção de exibir informações do pacote
-#       - Adicionado a opção de remover o pacote
-#   Versão 2.0, Flávio:
-#     23/05/2020
-#       - Adicionado suporte a arquivos rpm (zypper e dnf)
-# -------------------------------------------------------------------------------------------------------------------------------- #
-# Testado em:
-#   bash 4.4.20
-# -------------------------------------------------------------------------------------------------------------------------------- #
+# -------------------------------------------------------------------------------------------------------------------------------- 
 # ---------------------------------------- VARIÁVEIS-------------------------------------------------- #
 SITE=(
   "https://cloud.gastecnologia.com.br/gas/diagnostico/warsaw_setup_32.deb" \
